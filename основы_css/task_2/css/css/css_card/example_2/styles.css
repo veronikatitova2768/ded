@@ -1,0 +1,39 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    }
+    
+    .card {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    }
+    
+    .card:hover {
+    transform: scale(1.05);
+    }
+    
+    .card img {
+    width: 100%;
+    border-radius: 8px;
+    }
+    
+    .card h2 {
+    color: #333;
+    margin-top: 10px;
+    }
+    
+    .card p {
+    color: #666;
+    line-height: 1.4;
+    }
+    
+    .card a {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+    }
